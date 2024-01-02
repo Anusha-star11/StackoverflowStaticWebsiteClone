@@ -1,0 +1,61 @@
+.FooterContainer{
+   
+    display:flex;
+    flex-direction: column;
+    border-top-style: groove;
+    border-top-color: gray;
+    /* position:fixed; */
+    
+}
+.FooterTop{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left:10px;
+    margin-right:10px;
+    border-bottom-style:groove;
+    border-bottom-color: lightgrey;
+    padding:10px;
+}
+.RightDiv{
+    display:flex;
+    flex-direction:row;
+    
+}
+.RightDivItems{
+    margin:5px;
+}
+.LefttDiv{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterMiddle{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style:groove;
+    border-bottom-color: lightgrey;
+    
+}
+.ULList{
+    list-style-type: none;
+}
+/* .ListDiv{
+    display: flex;
+    align-items: flex-start;
+    margin-left:10px;
+    margin-right:10px;
+} */
+.Heading{
+    align-items: center;
+    text-align: center;
+}
+.FooterBottom{
+    border-bottom-style:groove;
+    border-bottom-color: lightgrey;
+    padding:10px;
+    
+}
